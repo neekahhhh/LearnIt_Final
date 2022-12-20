@@ -167,7 +167,6 @@ body {
             <li class="list-group-item  bg-dark "><a href="/uniquedeveloper/uniquedeveloper/admin/admin_main.php">Welcome Admin</a></li>
             <li class="list-group-item bg-dark "><a href="">Manage Lessons</a></li>
             <li class="list-group-item bg-dark"><a href="/uniquedeveloper/uniquedeveloper/admin/manage_quiz/manage_quiz.php">Manage Quizzes</a></li>
-            <li class="list-group-item bg-dark"><a href="/uniquedeveloper/uniquedeveloper/admin/manage_videos/manage_videos.php">Manage Videos</a></li>
             <li class="list-group-item bg-dark" style="height: 400px;"></li>
           </ul>
         </div>

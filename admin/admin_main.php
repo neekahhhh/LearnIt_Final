@@ -139,7 +139,6 @@ background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, F
             <li class="list-group-item  bg-dark "><a href="">Welcome Admin</a></li>
             <li class="list-group-item bg-dark "><a href="/uniquedeveloper/uniquedeveloper/admin/manage_courses/manage_courses.php">Manage Lessons</a></li>
             <li class="list-group-item bg-dark"><a href="/uniquedeveloper/uniquedeveloper/admin/manage_quiz/manage_quiz.php">Manage Quizzes</a></li>
-            <li class="list-group-item bg-dark"><a href="/uniquedeveloper/uniquedeveloper/admin/manage_videos/manage_videos.php">Manage Videos</a></li>
             <li class="list-group-item bg-dark" style="height: 400px;"></li>
           </ul>
         </div>
@@ -181,13 +180,6 @@ background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, F
               <!-- <div class="card-header">
                 Your Courses
               </div> -->
-
-
-              <img class="" src="../uploadimg/youtube.png" alt="Card" width="288" height="200">
-              <div class="card-body">
-                <p class="card-text "><a href="manage_videos/manage_videos.php" style="text-decoration: none; color: orangered">MANAGE YOUR VIDEOS</a><i class="fa fa-video-camera ml-3" style="color: orangered"></i></p>
-              </div>
-            </div>
             
           </div>
 
@@ -210,18 +202,6 @@ background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, F
 
         </td>
         
-      </tr>
-      <tr>
-        <td class="mytable2">
-           <div class="card shadow border-0" style="width: 15rem; height: 110px; box-shadow: 2px 2px #827171; border-radius:0px; border-top-left-radius: 0px;">
-
-             <div class="card-body">
-                <p class="card-text text-white"><b class="h4">No. Of Videos</b><br><span style="font-size: 20px;"><?php $admin->display_video_count(); ?></span></p>
-              </div>
-
-        </td>
-       
-      </tr>
      
     </tbody>
   </table>
